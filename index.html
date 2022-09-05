@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="contenedorLanding">
+        <nav class="nav__contenedor">
+            <a href="index.html" class="enlaces">Inicio</a>
+            <a href="#acerca" class="enlaces">Acerca de</a>
+            <a href="#parallax" class="enlaces">Parallax</a>
+            <a href="#contacto" class="enlaces">Contacto</a>
+        </nav>
+
+        <div class="container__text">
+            <h1 class="titulo__landing">Bienvenidos a Adventure Bikes</h1>
+            <p class="des__Landing">¡Comienza a planear tu proximo viaje en familia con nosotros!</p>
+            <a href="#" class="boton">Ingrese aqui</a>
+        </div>
+
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-56.71,82.41 C203.43,-83.36 170.71,197.88 513.26,50.83 L500.00,150.00 L-5.36,155.44 Z" style="stroke: none; fill: #ffffff;"></path></svg></div>
+    </header>
+
+    <section class="container__card" id="acerca">
+        <img class="imagen__card" src="img/ciclas.jpg" alt="Bicicletas">
+        <h2 class="titulo__card">Desierto de la Tatacoa</h2>
+        <p class="des__bicicletas">
+            Nuestro dia inicia en el punto de encuentro con un desayuno ligero para empezar nuestro recorrido, pedaleando llegaremos a las orillas del rio el cual es necesario atravezar en 
+            una barcaza, despues exploraremos el valle del desierto avistando algunas especies nativasde este exuberante lugar donde los visitantes podran tomarse fotografias de recuerdo en 
+            compañia de nuestros guias, y terminaremos acampando en la tarde al rededor de una fogata con avistamiento de las estrellas.
+            En el dia siguiente tendremos el regreso por un camino diferente para hacer exploracion de las cuevas de la zona acabando en la tarde en nuestro punto de partida.
+
+        </p>
+    </section>
+
+    <section class="container__parallax" id="parallax"></section>
+
+    <div class="container__form" id="contacto">
+        <h3 class="title__form">Formulario de contacto</h3>
+        <p class="des__form">Ingresa la informacion y nos pondremos en contacto contigo</p>
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input class="input" type="text" id="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input class="input" type="text" id="apellidos" placeholder="Ingrese sus apellidos" required>
+
+            <label for="tel">Telefono:</label>
+            <input class="input" type="number" id="tel" placeholder="Ingrese su N° celular" required maxlength="10">
+
+            <label for="correo">Email</label>
+            <input class="input" type="email" id="correo" placeholder="Ingrese su correo electronico" required>
+
+            <input class="btn__form" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer class="footer__contenedor">
+        <h2 class="title__footer">Gracias por visitarnos</h2>
+    </footer>
+
+</body>
+</html>
